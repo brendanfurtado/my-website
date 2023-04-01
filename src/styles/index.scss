@@ -1,0 +1,41 @@
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
+
+@font-face {
+    font-family: 'Eczar';
+    src: url('/fonts/Eczar-VariableFont_wght.ttf');
+    font-style: medium;
+    font-weight: normal;
+    font-display: swap;
+}
+
+.h1color{
+    color: black;
+}
+
+.p-text {
+    font-size: 0.8rem;
+    text-align: left;
+    color: var(--gray-color);
+    line-height: 1.5;
+    font-family: 'Mulish', sans-serif;
+
+
+    @media screen and (min-width: 2000px) {
+        font-size: 1.75rem;
+    }
+}
+
+#home-container-contents{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
